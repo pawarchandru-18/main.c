@@ -1,0 +1,52 @@
+Design and implement a menu-driven 2D Graphics Editor in C that allows users to draw and delete basic geometric shapes on a text-based canvas. The program should simulate a graphical workspace using a 2D character array and provide operations for creating and removing shapes such as rectangles, lines, triangles, and circles.
+Objectives
+Create a 2D canvas using a character matrix.
+Implement pixel-based drawing using ASCII characters.
+Allow users to draw and delete geometric shapes.
+Display the updated canvas after modifications.
+Provide an interactive menu-driven interface.
+Functional Requirements
+Initialize a canvas of size 30 × 60.
+Draw the following shapes:
+Rectangle
+Line
+Triangle
+Circle
+Delete previously drawn shapes by replacing drawing characters with blank canvas characters.
+Display the current state of the canvas.
+Clear the entire canvas.
+Exit the application.
+Features
+Pixel plotting using a setPixel() function.
+Rectangle drawing using boundary coordinates.
+Line drawing using a line drawing algorithm.
+Triangle drawing using three connected lines.
+Circle drawing using a circle generation algorithm.
+Shape deletion functionality.
+Continuous user interaction through a menu system.
+Expected Menu
+
+===== 2D Graphics Editor =====
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Delete Rectangle
+6. Delete Line
+7. Delete Triangle
+8. Delete Circle
+9. Display Canvas
+10. Clear Canvas
+0. Exit
+Technologies Used
+Programming Language: C
+Libraries:
+stdio.h
+stdlib.h
+math.h
+Learning Outcomes
+Understanding 2D arrays as graphical canvases.
+Implementing computer graphics concepts in C.
+Working with coordinate systems.
+Developing menu-driven applications.
+Applying geometric algorithms for shape rendering.
